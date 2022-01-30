@@ -31,9 +31,9 @@ const Navbar = () => {
             <li onClick={() => setExpansible(prev => !prev)}>Partner With Us<i className={expansible ? "fas fa-angle-down rotated" : "fas fa-angle-down"}></i></li>
             {expansible && (
               <ul className="expanse">
-                  <li>Become a Driver</li>
-                  <li>Become a Merchant</li>
-                  <li>Become an enterprise</li>
+                  <Link onClick={() => setExpansible(false)} to="/drivers" style={{ textDecoration: "none" }}><li>Become a Driver</li></Link>
+                  <li onClick={() => setExpansible(false)}>Become a Merchant</li>
+                  <li onClick={() => setExpansible(false)}>Become an enterprise</li>
               </ul>
             )}
           </div>
