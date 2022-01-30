@@ -1,0 +1,77 @@
+.drivers {
+    background-color: gray;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+    padding: 2rem 12rem;
+    margin-bottom: 40px;
+    .box {
+        background-color: #CCE0F5;
+        width: 400px;
+        padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+
+        .text {
+
+            .title {
+                font-weight: 700;
+                font-size: 32px;
+                width: 320px;
+                margin-bottom: 15px;
+                color: #134794;
+                font-family: 'Space Grotesk', sans-serif;
+            }
+
+            .para {
+                font-weight: 500;
+                font-size: 20px;
+                font-family: 'DM Sans', sans-serif;
+                color: rgb(22, 22, 22);
+                margin-bottom: 50px;
+            }
+
+        }
+
+        button {
+        background-color: #F2D399;
+        padding: 10px;
+        font-family: 'Space Grotesk', sans-serif;
+        border-radius: 5px;
+        text-align: left;
+        color: #123870;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        font-weight: 600;
+        font-size: 16px;
+        margin-right: 20px;
+        transition: 250ms ease;
+
+        &:hover {
+            background-color: #edc885;
+        }
+
+        i {
+            color: #F2A007;
+            margin-left: 40px;
+        }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 800px)  {
+    .drivers {
+        padding: 2rem;
+        .box {
+
+        }
+    }
+}
+@media screen and (max-width: 480px)  {
+    .drivers {
+        padding: 2rem 1rem;
+        .box {
+            width: 100%;
+        }
+    }
+}

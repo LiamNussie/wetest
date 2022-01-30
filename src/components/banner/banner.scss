@@ -1,0 +1,70 @@
+.banner {
+    background-color: grey;
+    padding: 10rem 7rem 7rem 7rem;
+    text-align: center;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    z-index: -6;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #000;
+        opacity: .6;
+        z-index: -5;
+    }
+
+    .info {
+        margin-top: 140px;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'DM Sans', sans-serif;
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .bold {
+        font-weight: 700;
+        font-size: 48px;
+        margin-bottom: 40px;
+        color: #fff;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .icons {
+        display: flex;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .imgx {
+            width: 100px;
+            text-align: center;
+            cursor: pointer;
+            padding: 20px 0;
+            border-radius:4px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    .banner {
+        padding: 5rem 10px 3rem 10px;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner {
+        .bold {
+            font-size: 32px;
+        }
+    }
+}

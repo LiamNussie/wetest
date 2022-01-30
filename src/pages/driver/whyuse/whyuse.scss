@@ -1,0 +1,67 @@
+.why-use {
+    padding: 1rem 7rem 0 7rem;
+
+    .titlexx {
+        // text-align: center;
+        font-weight: 600;
+        font-size: 26px;
+        text-decoration: underline;
+        color: #134794;
+        margin-bottom: 20px;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .content {
+        .opt {
+            display: flex;
+            justify-content: space-between;
+            padding: 2.5rem 3rem 1.5rem 3rem;
+            border-bottom: 1px solid lightgray;
+
+            .left {
+                font-weight: 500;
+                font-size: 32px;
+                // flex: 1 1 40%;
+                color: #134794;
+                margin-bottom: 20px;
+                font-family: 'Space Grotesk', sans-serif;
+                span {
+                    margin-right: 30px;
+                }
+            }
+            .right {
+                font-weight: 500;
+                    font-size: 18px;
+                    // flex: 1 1 60%;
+                    font-family: 'DM Sans', sans-serif;
+                    color: #333;
+                    margin-top: 12px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .why-use {
+        padding: 1rem 10px;
+
+        .content {
+
+            .opt {
+                padding: 2rem 10px 1rem 10px;
+
+                .left {
+                    font-size: 20px;
+                    width: max-content;
+
+                    span {
+                        display: none;
+                    }
+                }
+                .right {
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,148 @@
+.dri-banner {
+    background-color: #CCE0F5;
+    padding: 4rem 7rem 3rem 7rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .info {
+        margin-top: 140px;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'DM Sans', sans-serif;
+        color: #fff;
+    }
+
+    .bold {
+        font-weight: 700;
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: #134794;
+        line-height: 1.1;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .top-x {
+        font-weight: 700;
+        font-size: 22px;
+        margin-bottom: 30px;
+        color: #F2A007;
+        line-height: 1.1;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .para {
+        font-weight: 500;
+        font-size: 18px;
+        font-family: 'DM Sans', sans-serif;
+        color: rgb(22, 22, 22);
+        margin-bottom: 40px;
+    }
+
+    .flex-line {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .or {
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 14px;
+            margin: 10px 30px 0 10px;
+            font-family: 'DM Sans', sans-serif;
+            color: rgb(22, 22, 22);;
+        }
+
+        .imgs {
+            display: flex;
+
+            .imgx {
+                width: 100px;
+                cursor: pointer;
+                padding: 20px 0;
+                border-radius:4px;
+                background-size: contain;
+            }
+        }
+
+        .btn {
+            position: relative;
+            cursor: pointer;
+        
+        i {
+            background-color: #F2A007;
+            padding: 9px 10px;
+            border-radius: 50%;
+            color: #fff;
+            position: absolute;
+            right: 2%;
+            top: 9%;
+        }
+
+        button {
+            padding: 10px 70px 10px 20px;
+            background-color: #F2D399;
+            border-radius: 17px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            color: #123870;
+            font-size: 16px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 600;
+        }
+
+      }
+    }
+
+    .info {
+        font-weight: 500;
+        font-size: 16px;
+        width: fit-content;
+        margin: 0 auto;
+        font-family: 'DM Sans', sans-serif;
+        color: rgb(48, 48, 48);
+        margin-top: 90px;
+        border-bottom: 1px solid rgb(48, 48, 48);
+        cursor: pointer;
+    }
+
+    .imgs {
+        display: flex;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .imgx {
+            width: 100px;
+                        cursor: pointer;
+                        padding: 20px 0;
+                        border-radius:4px;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        margin-top: 150px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 480px)  {
+    .dri-banner {
+        padding: 2rem 10px;
+
+        .flex-line {
+            flex-direction: column;
+
+            .or {
+                padding: 7px 0;
+            }
+        }
+
+        .info {
+            font-size: 14px;
+        }
+    }
+}

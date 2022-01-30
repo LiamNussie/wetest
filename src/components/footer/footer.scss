@@ -1,0 +1,118 @@
+.footer {
+    background-color: #CCE0F5;
+    padding: 4rem 6rem;
+    font-family: 'DM Sans', sans-serif;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+            .logo {
+                margin: auto 0;
+                width: 9%;
+            }
+        .links {
+            // flex: 1 1 300px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            ul {
+                margin: 0 40px;
+                line-height: 2.5;
+
+                .titlex {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #134794;
+                    cursor: default;
+
+                    &:hover {
+                        color: #134794;
+                    }
+                }
+
+                li {
+                    list-style: none;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #292929;
+                    transition: 250ms ease;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #F2A007;
+                    }
+                }
+            }
+        }
+        .socials {
+            margin-top: 13px;
+
+            .any {
+                font-size: 18px;
+                    font-weight: 600;
+                    color: #134794;
+                    margin-bottom: 10px;
+            }
+            .mail {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #292929;
+                    text-decoration: none;
+                    transition: 250ms ease;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #F2A007;
+                    }
+            }
+            .xtra {
+                margin-bottom: 20px;
+                margin-top: 7px;
+                font-size: 14px;
+                font-weight: 500;
+                color: #595959;
+            }
+
+            img {
+                width: 80%;
+                margin-bottom: 65px;
+                cursor: pointer;
+            }
+            i {
+                font-size: 1.8em;
+                color: #535353;
+                cursor: pointer;
+                transition: 250ms ease;
+
+                &:hover {
+                    transform: scale(.8);
+                }
+            }
+            .tmp {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 3rem 1rem;
+        .content {
+            flex-direction: column;
+            .logo {
+                width: 22%;
+            }
+            .links {
+                flex-direction: column;
+                ul {
+                    margin: 0;
+                    
+                }
+            }
+        }
+    }
+}

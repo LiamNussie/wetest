@@ -1,0 +1,87 @@
+.driversx {
+    background-color: gray;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+    padding: 2rem 12rem;
+    .boxx {
+        background-color: #fff;
+        width: 42%;
+        padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+
+        .text {
+
+            .top {
+                font-weight: 600;
+                font-size: 20px;
+                width: 320px;
+                margin-bottom: 15px;
+                color: #468aee;
+                font-family: 'Space Grotesk', sans-serif;
+            }
+
+            .title {
+                font-weight: 700;
+                font-size: 32px;
+                width: 320px;
+                margin-bottom: 15px;
+                margin-top: 30px;
+                color: #134794;
+                font-family: 'Space Grotesk', sans-serif;
+            }
+
+            .para {
+                font-weight: 500;
+                font-size: 18px;
+                font-family: 'DM Sans', sans-serif;
+                color: rgb(22, 22, 22);
+                // width: 400px;
+                margin-bottom: 50px;
+            }
+
+        }
+
+        button {
+        background-color: #F2D399;
+        padding: 10px;
+        font-family: 'Space Grotesk', sans-serif;
+        border-radius: 5px;
+        text-align: left;
+        color: #123870;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        font-weight: 600;
+        font-size: 16px;
+        margin-right: 20px;
+        transition: 250ms ease;
+
+        &:hover {
+            background-color: #edc885;
+        }
+
+        i {
+            color: #F2A007;
+            margin-left: 40px;
+        }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 800px)  {
+    .driversx {
+        padding: 2rem;
+        .boxx {
+
+        }
+    }
+}
+@media screen and (max-width: 480px)  {
+    .driversx {
+        padding: 2rem 1rem;
+        .boxx {
+            width: 100%;
+        }
+    }
+}

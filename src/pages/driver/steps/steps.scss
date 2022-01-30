@@ -1,0 +1,84 @@
+.steps {
+    padding: 3rem 8rem;
+    margin-bottom: 30px;
+
+    .head {
+        font-weight: 600;
+        font-size: 26px;
+        text-decoration: underline;
+        color: #134794;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .sec {
+        display: flex;
+        margin-bottom: 5px;
+        gap: 70px;
+        justify-content: space-around;
+
+        .img {
+            flex: 0 1 300px;
+            height: 180px;
+            background-color: gray;
+            margin-bottom: 5rem;
+        }
+        .txt {
+            flex: 1 1 300px;
+            border-left: 1px solid black;
+            padding-left: 4rem;
+            position: relative;
+            
+
+            i {
+                position: absolute;
+                top: -4%;
+                left: -1%;
+                // transform: scale(.7);
+            }
+
+            .ttitle {
+                font-weight: 500;
+                font-size: 22px;
+                font-family: 'Space Grotesk', sans-serif;
+                margin-bottom: 10px;
+                margin-top: -15px;
+            }
+
+            .ppara {
+                font-size: 17px;
+                font-family: 'Space Grotesk', sans-serif;
+                margin-bottom: 10px;
+            }
+
+            .list {
+                padding-left: 2.5rem;
+                padding-bottom: 5rem;
+
+                li {
+                    margin-bottom: 10px;
+                    font-family: 'Space Grotesk', sans-serif;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .steps {
+        padding: 3rem 10px;
+
+        .sec {
+            .img {
+                display: none;
+            }
+            .txt {
+                i {
+                    left: -2%;
+                }
+            }
+        }
+    }
+}
